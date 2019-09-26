@@ -1,4 +1,5 @@
 import ScrollbarDemo from '../demos/ScrollbarDemo'
+import FileSaverDemo from '../demos/FileSaverDemo'
 
 export default [
     {
@@ -6,4 +7,9 @@ export default [
         name: '自定义滚动react-custom-scrollbars demo',
         component: ScrollbarDemo,
     },
+    {
+        path: '/file-saver',
+        name: 'fileSaver文件下载 demo',
+        component: FileSaverDemo
+    }
 ]

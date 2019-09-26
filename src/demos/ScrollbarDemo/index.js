@@ -1,3 +1,6 @@
+/**
+ * 自定义滚动条（改写react-custom-scrollbars）
+ */
 import React from 'react'
 import Scrollbar from './components/CustomScrollbar'
 
