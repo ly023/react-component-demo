@@ -1,19 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectFrameBounds">
-    <option name="x" value="241" />
-    <option name="y" value="53" />
-    <option name="width" value="1174" />
-    <option name="height" value="751" />
+  <component name="ChangeListManager">
+    <list default="true" id="f9cdc2a8-54b9-4868-8104-d810149b23fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/pnpTs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/ScrollbarDemo/components/CustomScrollbar/Scrollbar/defaultRenderElements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/ScrollbarDemo/components/CustomScrollbar/Scrollbar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/ScrollbarDemo/components/CustomScrollbar/Scrollbar/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/ScrollbarDemo/components/CustomScrollbar/Scrollbar/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/ScrollbarDemo/components/CustomScrollbar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/ScrollbarDemo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Scrollbars</find>
+      <find>tagName</find>
+      <find>autoHide</find>
+      <find>autoHideTimeout</find>
+      <find>autoHideDuration</find>
+      <find>this.trackMouseOver</find>
+      <find>handleTrackMouseEnter</find>
+      <find>dragging</find>
+      <find>(event) {</find>
+      <find>autoHeightMax</find>
+      <find>autoHeight</find>
+      <find>props</find>
+      <find>containerStyleAutoHeight</find>
+      <find>hideTracksWhenNotNeeded</find>
+      <find>onScrollFrame</find>
+      <find>thumbMinSize</find>
+      <find>renderView</find>
+      <find>viewStyleAutoHeight</find>
+      <find>didMountUniversal</find>
+      <find>style</find>
+      <find>children</find>
+      <find>requestFrame</find>
+      <find>getScrollbarWidth()</find>
+      <find>viewStyleDefault</find>
+      <find>this.view</find>
+      <find>getValues</find>
+      <find>viewStyleUniversalInitial</find>
+      <find>;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>= () =&gt; {</replace>
+      <replace>= (event) =&gt; {</replace>
+      <replace>getViewValues</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/demos/ScrollbarDemo/components/CustomScrollbar</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1RCCmwP9vXpIi0yC61co73nI4td" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/demos/ScrollbarDemo/components/Scrollbar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/demos/ScrollbarDemo/components/CustomScrollbar/Scrollbar" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/demos/ScrollbarDemo/components/Scrollbar" />
+      <recent name="$PROJECT_DIR$/src/demos/ScrollbarDemo" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9cdc2a8-54b9-4868-8104-d810149b23fc" name="Default Changelist" comment="" />
+      <created>1567560074237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567560074237</updated>
+      <workItem from="1567560076671" duration="2778000" />
+      <workItem from="1567580435443" duration="1641000" />
+      <workItem from="1567644810389" duration="7551000" />
+      <workItem from="1567993069795" duration="58000" />
+      <workItem from="1569161854550" duration="37000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
