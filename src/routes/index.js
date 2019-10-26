@@ -1,6 +1,7 @@
 import ScrollbarDemo from '../demos/ScrollbarDemo'
 import FileSaverDemo from '../demos/FileSaverDemo'
 import AreaSelectDemo from '../demos/AreaSelectDemo'
+import ReactIntlDemo from '../demos/ReactIntlDemo'
 
 export default [
     {
@@ -17,5 +18,10 @@ export default [
         path: '/area-select',
         name: '地区选择 demo',
         component: AreaSelectDemo
+    },
+    {
+        path: '/react-intl',
+        name: '国际化 demo',
+        component: ReactIntlDemo
     }
 ]
