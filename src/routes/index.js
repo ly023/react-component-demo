@@ -1,9 +1,15 @@
+import ChineseInput from '../demos/ChineseInput'
 import ScrollbarDemo from '../demos/ScrollbarDemo'
 import FileSaverDemo from '../demos/FileSaverDemo'
 import AreaSelectDemo from '../demos/AreaSelectDemo'
 import ReactIntlDemo from '../demos/ReactIntlDemo'
 
 export default [
+    {
+        path: '/chinese-input',
+        name: '中文输入截断',
+        component: ChineseInput
+    },
     {
         path: '/custom-scrollbar',
         name: '自定义滚动 demo',
@@ -23,5 +29,6 @@ export default [
         path: '/react-intl',
         name: '国际化 demo',
         component: ReactIntlDemo
-    }
+    },
+
 ]
