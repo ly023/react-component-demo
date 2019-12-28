@@ -1,5 +1,6 @@
 import ChineseInput from '../demos/ChineseInput'
-import ScrollbarDemo from '../demos/ScrollbarDemo'
+import useEventListener from '../demos/UseEventListener'
+// import ScrollbarDemo from '../demos/ScrollbarDemo'
 import FileSaverDemo from '../demos/FileSaverDemo'
 import AreaSelectDemo from '../demos/AreaSelectDemo'
 import ReactIntlDemo from '../demos/ReactIntlDemo'
@@ -7,14 +8,19 @@ import ReactIntlDemo from '../demos/ReactIntlDemo'
 export default [
     {
         path: '/chinese-input',
-        name: '中文输入截断',
+        name: '中文输入搜索',
         component: ChineseInput
     },
     {
-        path: '/custom-scrollbar',
-        name: '自定义滚动 demo',
-        component: ScrollbarDemo,
+        path: '/use-event-listener',
+        name: 'useEventListener',
+        component: useEventListener
     },
+    // {
+    //     path: '/custom-scrollbar',
+    //     name: '自定义滚动条 demo',
+    //     component: ScrollbarDemo,
+    // },
     {
         path: '/file-saver',
         name: 'fileSaver文件下载 demo',
@@ -30,5 +36,4 @@ export default [
         name: '国际化 demo',
         component: ReactIntlDemo
     },
-
 ]
