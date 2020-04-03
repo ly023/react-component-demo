@@ -1,0 +1,52 @@
+
+.video {
+    position: relative;
+
+    .mask {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    .icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background: url(/images/play.svg) no-repeat 50%;
+        background-size: 24px 24px;
+        cursor: pointer;
+
+        &.disabled {
+            z-index: -1;
+        }
+    }
+
+    .loading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        background-color: #F7F9FB;
+    }
+
+    .cover {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        text-align: center;
+
+        &::before {
+            position: absolute;
+            top: 50%;
+            font-size: 12px;
+            transform: translateY(-50%);
+            content: '视频封面加载失败';
+        }
+    }
+}

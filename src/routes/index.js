@@ -4,6 +4,7 @@ import useEventListener from '../demos/UseEventListener'
 import FileSaverDemo from '../demos/FileSaverDemo'
 import AreaSelectDemo from '../demos/AreaSelectDemo'
 import ReactIntlDemo from '../demos/ReactIntlDemo'
+import ProductDetailDemo from '../demos/ProductDetailDemo'
 
 export default [
     {
@@ -35,5 +36,10 @@ export default [
         path: '/react-intl',
         name: '国际化 demo',
         component: ReactIntlDemo
+    },
+    {
+        path: '/react-swiper-magnifier',
+        name: '商品轮播放大镜',
+        component: ProductDetailDemo
     },
 ]

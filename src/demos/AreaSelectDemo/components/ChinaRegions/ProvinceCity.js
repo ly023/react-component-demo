@@ -6,7 +6,7 @@ import cityData from './city'
 
 const {Option} = Select
 
-export default class extends React.Component {
+export default class ProvinceCity extends React.Component {
     static propTypes = {
         range: PropTypes.array,
     }
