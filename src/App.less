@@ -1,0 +1,40 @@
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #eff0f1;
+
+  > li {
+    display: inline-block;
+  }
+
+  > li a {
+    display: inline-block;
+    padding: 10px;
+    color: #2B91AF;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  > li a.active {
+    background-color: #2B91AF;
+    color: #fff;
+  }
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.box {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #597786;
+}

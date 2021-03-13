@@ -1,0 +1,21 @@
+
+.rangePicker {
+  white-space: nowrap;
+
+  .radioGroup {
+    :global {
+      .ant-radio-button-wrapper {
+        &:last-child {
+          border-radius: 0;
+        }
+      }
+    }
+  }
+
+  :global {
+    .ant-picker {
+      border-left: none;
+      border-radius: 0 2px 2px 0;
+    }
+  }
+}

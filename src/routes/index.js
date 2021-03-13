@@ -5,12 +5,20 @@ import FileSaverDemo from '../demos/FileSaverDemo'
 import AreaSelectDemo from '../demos/AreaSelectDemo'
 import ReactIntlDemo from '../demos/ReactIntlDemo'
 import ProductDetailDemo from '../demos/ProductDetailDemo'
+import RangeDemo from '../demos/RangeDemo'
+import FlopAnimationDemo from '../demos/FlopAnimationDemo'
+import CustomDateRange from '../demos/CustomDateRange'
 
 export default [
     {
         path: '/chinese-input',
         name: '中文输入搜索',
-        component: ChineseInput
+        component: ChineseInput,
+    },
+    {
+        path: '/custom-date-range',
+        name: '自定义日期范围选择',
+        component: CustomDateRange,
     },
     {
         path: '/use-event-listener',
@@ -41,5 +49,15 @@ export default [
         path: '/react-swiper-magnifier',
         name: '商品轮播放大镜',
         component: ProductDetailDemo
+    },
+    {
+        path: '/react-range',
+        name: 'range demo',
+        component: RangeDemo,
+    },
+    {
+        path: '/react-flop',
+        name: '翻牌动画',
+        component: FlopAnimationDemo,
     },
 ]

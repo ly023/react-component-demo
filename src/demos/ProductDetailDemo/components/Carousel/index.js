@@ -118,11 +118,9 @@ function Carousel(props) {
         getSwiper: setSwiper,
         on: {},
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: styles.next,
+            prevEl: styles.prev,
         },
-        renderNextButton: () => <div className={`swiper-button-next ${styles.next}`}/>,
-        renderPrevButton: () => <div className={`swiper-button-prev ${styles.prev}`}/>,
     }), [])
 
     // 轮播图config
@@ -132,7 +130,7 @@ function Carousel(props) {
     }
 
     // sides不足一行不显示前进后退按钮
-    const shouldShowNavigation = useCallback(() => {
+    const shouldShowNavigation = useMemo(() => {
         if (swiper !== null) {
             const {size, virtualSize} = swiper
             return virtualSize > size
@@ -186,7 +184,7 @@ function Carousel(props) {
         {
             images.length &&
             <div style={thumbWrapperStyle}
-                 className={`${styles.thumbs} ${shouldShowNavigation() ? styles.showNavigation : styles.hideNavigation}`}
+                 className={`${styles.thumbs} ${shouldShowNavigation ? styles.showNavigation : styles.hideNavigation}`}
             >
                 <Swiper {...combSwiperProps}>
                     {getThumbs()}

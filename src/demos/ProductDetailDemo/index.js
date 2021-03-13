@@ -4,9 +4,6 @@
 import React from 'react'
 import Carousel from './components/Carousel'
 
-import 'swiper/css/swiper.css'
-import './index.less'
-
 function ProductDetailDemo() {
     const images = [
         'https://crm-new-test-1256249764.picsh.myqcloud.com/3/26/3d4471e85f5c60e4fd4ccb7de78a1732.jpg',
